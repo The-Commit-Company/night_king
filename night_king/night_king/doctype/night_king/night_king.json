@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-10 16:18:05.508166",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "army_of_the_dead_section",
+  "number_of_users",
+  "create_users"
+ ],
+ "fields": [
+  {
+   "fieldname": "army_of_the_dead_section",
+   "fieldtype": "Section Break",
+   "label": "Army of the Dead"
+  },
+  {
+   "description": "This might be throttled based on the Throttle User Limit in site configuration. Default throttle is 60.",
+   "fieldname": "number_of_users",
+   "fieldtype": "Int",
+   "label": "Number of Dummy Users to Create"
+  },
+  {
+   "fieldname": "create_users",
+   "fieldtype": "Button",
+   "label": "Create"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-10 16:40:35.428873",
+ "modified_by": "Administrator",
+ "module": "Night King",
+ "name": "Night King",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

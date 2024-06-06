@@ -7,7 +7,8 @@
  "field_order": [
   "army_of_the_dead_section",
   "number_of_users",
-  "create_users"
+  "create_users",
+  "generate_reactions"
  ],
  "fields": [
   {
@@ -25,12 +26,17 @@
    "fieldname": "create_users",
    "fieldtype": "Button",
    "label": "Create"
+  },
+  {
+   "fieldname": "generate_reactions",
+   "fieldtype": "Button",
+   "label": "Generate Reactions"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-05-10 16:40:35.428873",
+ "modified": "2024-06-06 20:55:02.897009",
  "modified_by": "Administrator",
  "module": "Night King",
  "name": "Night King",

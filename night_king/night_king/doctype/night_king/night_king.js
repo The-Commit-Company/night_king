@@ -8,5 +8,8 @@ frappe.ui.form.on("Night King", {
 
     create_users(frm) {
         frm.call('create_raven_users')
+    },
+    generate_reactions(frm) {
+        frm.call('generate_reactions')
     }
 });
